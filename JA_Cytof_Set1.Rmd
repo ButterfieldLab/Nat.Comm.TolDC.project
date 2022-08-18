@@ -1,0 +1,26 @@
+---
+title: "JACytof_Set1"
+output: html_document
+date: '2022-08-18'
+---
+
+# load functions library
+```{r, echo=TRUE, include=FALSE}
+library(easypackages)
+packages(c("dplyr", "broom", "ggrastr",  "ggrepel",
+           "tidyverse", "patchwork", "broom", "effsize","fst",
+           "flowCore", "pheatmap","xlsx",
+           "ggplot2",
+           "gdata",
+           "doBy",
+           "reshape2",
+           "devtools",
+           "scico",
+           "readr",
+           "magrittr","uwot",
+           "readxl",
+           "ggridges",
+           "ggbeeswarm",
+           "viridis",
+           "RColorBrewer","lme4","ComplexHeatmap","gridBase","circlize","dendextend","heatmaply"))
+```
